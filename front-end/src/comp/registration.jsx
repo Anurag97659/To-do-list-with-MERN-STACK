@@ -14,7 +14,7 @@ function Registration() {
     try {
       const response = await fetch(
         // "http://localhost:8000/anuragnidhi-tdl/2005/v1/users/register",
-        "https://anurag97659-to-do-list-with-mern-stack-vbmm.vercel.app/registration",
+        "https://anurag97659-to-do-list-with-mern-stack-vbmm.vercel.app/anuragnidhi-tdl/2005/v1/users/registration",
         {
           method: "POST",
           headers: {
