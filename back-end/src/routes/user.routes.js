@@ -10,7 +10,7 @@ import {verifyJWT} from '../middlewares/auth.middleware.js';
 
 
 const router=Router();
-router.route('registration').post(registeruser);
+router.route('/register').post(registeruser);
 router.route('/login').post(loginuser);
 router.route('/logout').post(verifyJWT,logoutuser);
 router.route('/changePassword').post(verifyJWT,changeCurrentPassword);

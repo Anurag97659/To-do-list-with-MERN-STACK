@@ -13,8 +13,7 @@ function Registration() {
     console.log(email, password, fullname, username);
     try {
       const response = await fetch(
-        // "http://localhost:8000/anuragnidhi-tdl/2005/v1/users/register",
-        "https://anurag97659-to-do-list-with-mern-stack-vbmm.vercel.app/registration",
+        "http://localhost:8000/anuragnidhi-tdl/2005/v1/users/register",
         {
           method: "POST",
           headers: {
