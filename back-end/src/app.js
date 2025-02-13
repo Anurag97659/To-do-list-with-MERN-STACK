@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(cookieParser());
 
-app.use('/anuragnidhi-tdl/2005/v1/users', userRoutes);
+app.use('/', userRoutes);
 app.use('/anuragnidhi-tdl/2005/v1/tdl', tdlRoutes);
 
 export default app;
