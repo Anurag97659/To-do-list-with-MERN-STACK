@@ -7,7 +7,8 @@ import tdlRoutes from './routes/tdl.routes.js';
 const app = express();
 
 // CORS configuration
-const allowedOrigins = ['http://localhost:3000'];
+// const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = ['https://anurag97659-to-do-list-with-mern-stack-vbmm.vercel.app'];
 
 app.use(
   cors({
